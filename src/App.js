@@ -1,8 +1,14 @@
+import { AppProvider } from "./Context/AppContext";
+import Home from "./Layouts/Home/Home";
+
 function App() {
     return (
-        <div className="App">
-            <p>Hello HomeJam</p>
-        </div>
+        <AppProvider>
+            <div className="App">
+                <p>Hello HomeJam</p>
+                <Home />
+            </div>
+        </AppProvider>
     );
 }
 
