@@ -11,7 +11,15 @@ const AppProvider = (props) => {
 
     // Actions
 
-    return <AppContext.Provider value={{}}>{props.children}</AppContext.Provider>;
+    return (
+        <AppContext.Provider
+            value={{
+                reviews: state.reviews,
+            }}
+        >
+            {props.children}
+        </AppContext.Provider>
+    );
 };
 
 export { AppContext, AppProvider };

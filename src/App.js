@@ -1,5 +1,5 @@
 import { AppProvider } from "./Store/AppContext";
-import Home from "./Layouts/Homepage/Home";
+import Home from "./Pages/Home/Home";
 
 function App() {
     return (

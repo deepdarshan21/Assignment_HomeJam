@@ -1,0 +1,37 @@
+.reviews {
+    margin: 30px 80px;
+}
+
+.reviews .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reviews .head .heading {
+    font-family: serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.reviews .head .heading .underline {
+    text-decoration: underline #1e1eec;
+    text-underline-position: under;
+}
+
+.reviews .head .slider {
+    font-size: 20px;
+    color: #faebd7;
+    margin: auto 0;
+}
+
+/* .reviews .head .slider .next {
+    justify-self:baseline
+} */
+
+.reviews .content {
+    display: flex;
+    flex-direction: row;
+}
