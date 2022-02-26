@@ -1,0 +1,25 @@
+.circle {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle .icon {
+    margin: 10px;
+}
+
+.circle .value-unit .value {
+    font-size: 24px;
+}
+.circle .value-unit .unit {
+    font-size: 14px;
+}
+
+.circle .name {
+    font-size: 24px;
+}
