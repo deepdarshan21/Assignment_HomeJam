@@ -9,7 +9,6 @@ const Reviews = () => {
     const { reviews } = useContext(AppContext);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPage] = useState(Math.ceil(reviews.length / 3));
-    console.log(currentPage, totalPage);
     const reviewsToDisplay = reviews.slice(currentPage * 3 - 3, currentPage * 3);
     const nextPage = () => {
         if (currentPage === totalPage) {
@@ -44,8 +43,17 @@ const Reviews = () => {
             </div>
             <div className="content">
                 {reviewsToDisplay.map(
-                    ({ userName, userImage, userCity, userState, userCountry, userMessage }) => (
+                    ({
+                        userNo,
+                        userName,
+                        userImage,
+                        userCity,
+                        userState,
+                        userCountry,
+                        userMessage,
+                    }) => (
                         <Review
+                            key={userNo}
                             userName={userName}
                             userImage={userImage}
                             userCity={userCity}
