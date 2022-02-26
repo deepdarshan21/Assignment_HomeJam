@@ -2,7 +2,7 @@ const UserImage = ({ userImage, userName }) => {
     return (
         <img
             className="userImage"
-            src={require(`../../Assests/ReviewSection/${userImage}`)}
+            src={require(`../../Assets/ReviewUserImage/${userImage}`)}
             alt={`User ${userName}`}
         />
     );

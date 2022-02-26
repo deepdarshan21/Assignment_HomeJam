@@ -1,6 +1,6 @@
-import India from "../../Assests/Flags/India.png";
-import USA from "../../Assests/Flags/USA.png";
-import UK from "../../Assests/Flags/UK.png";
+import India from "../../Assets/Flags/India.png";
+import USA from "../../Assets/Flags/USA.png";
+import UK from "../../Assets/Flags/UK.png";
 
 const UserDetail = ({ userName, userCountry, userCity, userState }) => {
     let userCountryFlag, userCountryCode;
