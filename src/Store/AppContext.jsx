@@ -7,7 +7,7 @@ const AppContext = createContext(store);
 
 // Provider component
 const AppProvider = (props) => {
-    const [state, dispatch] = useReducer(AppReducer, store);
+    const [state] = useReducer(AppReducer, store);
 
     // Actions
 
