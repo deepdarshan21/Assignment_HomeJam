@@ -15,6 +15,7 @@ const AppProvider = (props) => {
         <AppContext.Provider
             value={{
                 reviews: state.reviews,
+                shows: state.shows,
             }}
         >
             {props.children}

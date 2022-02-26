@@ -1,0 +1,35 @@
+.shows {
+    margin: 30px 80px;
+}
+
+.shows .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shows .head .heading {
+    font-family: serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.shows .head .heading .underline {
+    text-decoration: underline #1e1eec;
+    text-underline-position: under;
+}
+
+.shows .head .view-all{
+    font-size: 20px;
+    color: #faebd7;
+    margin: auto 0;
+}
+
+.shows .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0;
+}

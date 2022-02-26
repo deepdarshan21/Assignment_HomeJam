@@ -1,0 +1,57 @@
+.show {
+    width: 250px;
+    height: 380px;
+    background-color: #181838;
+    border-radius: 8%;
+    box-shadow: 10px -10px #1a6179;
+}
+
+.show .head .showImage {
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+    
+}
+
+.show .body .details {
+    margin: 10px;
+}
+
+.show .body .details .category {
+    display: inline-block;
+    background-color: #d6d62e;
+    color: #a52a2a;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.show .body .details .performer-name {
+    font-size: 28px;
+    font-family: serif;
+    margin: 8px 0;
+}
+
+.show .body .details .more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.show .body .details .more .more-info {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0051ff;
+}
+.show .body .details .more .book-ticket {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid gray;
+}
+
+.show .body .details .more .book-ticket:hover{
+    cursor: pointer;
+    color: #0051ff;
+}
