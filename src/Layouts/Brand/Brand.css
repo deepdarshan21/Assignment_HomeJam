@@ -1,0 +1,14 @@
+.start .brand{
+    margin-left: 200px;
+}
+
+.brand .brand-name{
+    font-size: 64px;
+    font-family: serif;
+    margin: 25px 0;
+}
+
+.brand .brand-message {
+    font-size: 20px;
+    width: 500px;
+}
