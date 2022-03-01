@@ -1,7 +1,7 @@
 .nav-cart {
-    margin: auto 0;
+    margin: auto 10px;
 }
 
 .nav-cart:hover {
     cursor: pointer;
-}
+}   

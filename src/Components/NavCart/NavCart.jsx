@@ -1,10 +1,10 @@
 import "./NavCart.css";
-import { BsBagCheckFill } from "react-icons/bs";
+import { FiShoppingBag } from "react-icons/fi";
 
 const NavCart = () => {
     return (
         <span className="nav-cart">
-            <BsBagCheckFill size={25} />
+            <FiShoppingBag size={25} />
         </span>
     );
 };
