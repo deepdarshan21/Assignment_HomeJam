@@ -1,3 +1,13 @@
 .nav-icon {
+    height: 50px;
+    position: relative;
+}
+
+.nav-icon .nav-logo {
+    display: inline-block;
     height: 40px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(0%, -50%);
 }
