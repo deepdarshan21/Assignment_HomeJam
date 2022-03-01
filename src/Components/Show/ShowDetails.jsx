@@ -7,7 +7,7 @@ const ShowDetails = ({ performerName, category }) => {
             <span className="category">{category}</span>
             <p className="performer-name">{performerName}</p>
             <div className="more">
-                <a className="more-info" href="#">
+                <a className="more-info" href=".">
                     <span>More Info</span> <IoIosArrowRoundForward size={25} />
                 </a>
                 <div className="book-ticket">
