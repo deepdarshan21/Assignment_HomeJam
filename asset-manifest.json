@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Assignment_HomeJam/static/css/main.f5d8f912.css",
+    "main.js": "/Assignment_HomeJam/static/js/main.6685cab8.js",
+    "static/media/background.jpg": "/Assignment_HomeJam/static/media/background.3185c2b2e4f2fb0ca593.jpg",
+    "static/media/benny-dayal.jpg": "/Assignment_HomeJam/static/media/benny-dayal.38fa6762d8322f8f5b6a.jpg",
+    "static/media/Isaac Netwon.jpg": "/Assignment_HomeJam/static/media/Isaac Netwon.253514a47a582c3bfff9.jpg",
+    "static/media/Deepika.jpg": "/Assignment_HomeJam/static/media/Deepika.f0c90c7ccc0d72645305.jpg",
+    "static/media/Hellen Jummy.jpg": "/Assignment_HomeJam/static/media/Hellen Jummy.0847a8d5f14f8f560ad6.jpg",
+    "static/media/logo.png": "/Assignment_HomeJam/static/media/logo.8b2556df7eea761aa797.png",
+    "static/media/vijay-yasudas.jpg": "/Assignment_HomeJam/static/media/vijay-yasudas.0b16847a63fdac498298.jpg",
+    "static/media/USA.png": "/Assignment_HomeJam/static/media/USA.ba8672c15e348f938543.png",
+    "static/media/UK.png": "/Assignment_HomeJam/static/media/UK.a46c057871b6a5f79b0f.png",
+    "static/media/India.png": "/Assignment_HomeJam/static/media/India.62dd74a7ee7437ce5e2c.png",
+    "static/media/Peyush Bansal.jpg": "/Assignment_HomeJam/static/media/Peyush Bansal.44e9b9afca1719db9624.jpg",
+    "index.html": "/Assignment_HomeJam/index.html",
+    "main.f5d8f912.css.map": "/Assignment_HomeJam/static/css/main.f5d8f912.css.map",
+    "main.6685cab8.js.map": "/Assignment_HomeJam/static/js/main.6685cab8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5d8f912.css",
+    "static/js/main.6685cab8.js"
+  ]
+}
