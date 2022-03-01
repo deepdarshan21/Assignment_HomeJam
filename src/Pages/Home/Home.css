@@ -1,0 +1,13 @@
+.home {
+    background: linear-gradient(to bottom, #00000000 0%, #060614 45%, #060614 100%), url('../../Assets/background.jpg') no-repeat;
+    background-size: 100% auto;
+    color: #f0f8ff;
+    margin: 0;
+}
+
+.home .start {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
