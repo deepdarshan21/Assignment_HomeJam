@@ -1,3 +1,9 @@
 .search-box {
-    font-size: 24px;
+    font-size: 18px;
+    margin: auto 10px;
+}
+
+.search-box span:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
